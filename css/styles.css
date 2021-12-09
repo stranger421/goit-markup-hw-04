@@ -97,31 +97,30 @@ header .logo {
   color: var(--active-color);
 }
 
-/* .icon-mail::before { */
-/* display: inline-block; */
-/* content: ''; */
-/* width: 16px; */
-/* height: 12px; */
-/* background-image: url(../images/envelope.png); */
-/* background-size: contain; */
-/* background-repeat: no-repeat; */
-/* background-position: center; */
-/* margin-right: 10px; */
-/* } */
-/*  */
-/* .icon-tel::before { */
-/* display: inline-block; */
-/* content: ''; */
-/* width: 10px; */
-/* height: 16px; */
-/* background-image: url(../images/Vector.png); */
-/* background-size: contain; */
-/* background-repeat: no-repeat; */
-/* background-position: center; */
-/* margin-right: 10px; */
-/* } */
-/* Герой */
+.icon-mail::before {
+  display: inline-block;
+  content: '';
+  width: 16px;
+  height: 12px;
+  background-image: url(../images/envelope.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-right: 10px;
+}
 
+.icon-tel::before {
+  display: inline-block;
+  content: '';
+  width: 10px;
+  height: 16px;
+  background-image: url(../images/Vector.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-right: 10px;
+}
+/* Герой  */
 .hero {
   padding: 200px 0;
   background: #2f303a;
@@ -203,37 +202,39 @@ header .logo {
   height: 100;
 }
 
-/* .flex-company-list::before { */
-/* display: block; */
-/* content: ''; */
-/* width: 270px; */
-/* height: 120px; */
-/* background: #f5f4fa; */
-/* border-radius: 4px; */
-/* margin-bottom: 30px; */
-/*  */
-/* background-size: 70px 70px; */
-/* background-repeat: no-repeat; */
-/* background-position: center; */
-/* margin-right: 10px; */
-/* } */
-/*  */
-/* .icon-detalist::before { */
-/* background-image: url(../images/antena.png); */
-/* } */
-/*  */
-/* .icon-punctuality::before { */
-/* background-image: url(../images/clock\ 1.png); */
-/* } */
-/*  */
-/* .icon-plan::before { */
-/* background-image: url(../images/diagram\ 1.png); */
-/* } */
-/*  */
-/* .icon-technologists::before { */
-/* background-image: url(../images/astronaut\ 1.png); */
-/* } */
+.flex-company-list::before {
+  display: block;
+  content: '';
+  width: 270px;
+  height: 120px;
+  background: #f5f4fa;
+  border-radius: 4px;
+  margin-bottom: 30px;
+
+  background-size: 70px 70px;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-right: 10px;
+}
+
+.icon-detalist::before {
+  background-image: url(../images/antena.png);
+}
+
+.icon-punctuality::before {
+  background-image: url(../images/clock\ 1.png);
+}
+
+.icon-plan::before {
+  background-image: url(../images/diagram\ 1.png);
+}
+
+.icon-technologists::before {
+  background-image: url(../images/astronaut\ 1.png);
+}
+
 /* Чем ми занимаємься */
+
 .header-main {
   font-weight: bold;
   font-size: 36px;
