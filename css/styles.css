@@ -22,6 +22,7 @@ ul li {
   --main-color: #212121;
   --sec-color: #757575;
   --active-color: #2196f3;
+  --icon-color: #afb1b8;
 }
 
 body {
@@ -97,32 +98,51 @@ header .logo {
   color: var(--active-color);
 }
 
-/* .icon-mail::before { */
+.contacts list {
+  display: flex;
+  margin-left: auto;
+}
+
+.contacts list .icon-mail + .icon-mail {
+  display: flex;
+  margin-left: 30px;
+  justify-content: center;
+}
+
+.link {
+  display: flex;
+  align-items: center;
+}
+
+.icon-mail {
+  display: inline-block;
+  list-style: none;
+  padding: 0;
+}
+
+.mail-icon {
+  display: inline-block;
+  /* flex-direction: column; */
+  align-items: center;
+  margin-right: 10px;
+  width: 16px;
+  height: 12px;
+}
+.icon-envelope {
+  fill: var(--sec-color);
+}
+
+/* .icon-tel::before { */
 /* display: inline-block; */
 /* content: ''; */
-/* width: 16px; */
-/* height: 12px; */
+/* width: 10px; */
+/* height: 16px; */
+/* background-image: url(../images/Vector.png); */
 /* background-size: contain; */
 /* background-repeat: no-repeat; */
 /* background-position: center; */
 /* margin-right: 10px; */
 /* } */
-
-.icon-envelope {
-  display: inline-block;
-}
-
-.icon-tel::before {
-  display: inline-block;
-  content: '';
-  width: 10px;
-  height: 16px;
-  background-image: url(../images/Vector.png);
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-  margin-right: 10px;
-}
 /* Герой  */
 .hero {
   padding: 200px 0;
@@ -205,6 +225,50 @@ header .logo {
   height: 100;
 }
 
+.icon-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+  height: 120px;
+  background-color: #f5f4fa;
+}
+
+.icon-antenna {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  width: 70px;
+  height: 70px;
+}
+
+.icon-clock {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  width: 70px;
+  height: 70px;
+}
+
+.icon-diagram {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  width: 70px;
+  height: 70px;
+}
+
+.icon-astronaut {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  width: 70px;
+  height: 70px;
+}
 /* .flex-company-list::before { */
 /* display: block; */
 /* content: ''; */
@@ -294,6 +358,69 @@ header .logo {
   line-height: 1.18;
   letter-spacing: 0.03em;
   color: var(--sec-color);
+}
+
+/* Соцсети*/
+
+.comand-social-list {
+  display: flex;
+  justify-content: center;
+  padding-left: 0;
+}
+
+.comand-social-list li:not(:last-child) {
+  margin-right: 10px;
+  margin-bottom: 30px;
+}
+
+.comand-social-link {
+  display: flex;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  outline: 2px solid teal;
+}
+
+.social-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon-social-link {
+  width: 20px;
+  height: 20px;
+  fill: var(--sec-color);
+}
+/* Постоянные клиенты */
+.clients-list {
+  display: flex;
+  justify-content: center;
+}
+.item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* margin-bottom: 30px; */
+  width: 170px;
+  height: 92px;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+}
+
+.item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.client-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo-icon {
+  width: 41px;
+  height: 47px;
+  fill: var(--icon-color);
 }
 /* Футер */
 

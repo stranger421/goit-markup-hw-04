@@ -28,12 +28,16 @@
                 </ul>
             </nav>
             <ul class="contacts list">
-                <li class="cotacts-svg icon-mail"><a href="mailto:info@devstudio.com">
-                    <svg class="icon-envelope">
-                        <use href="./images/symbol-defs.svg#icon-envelope" width="16" height="12"></use>
+                <li class="icon-mail"><a href="mailto:info@devstudio.com" class="link">
+                    <svg class="mail-icon">
+                        <use class="icon-envelope" href="./images/symbol-defs.svg#icon-envelope" width="16" height="12"></use>
                     </svg>
                     info@devstudio.com</a></li>
-                <li class="cotacts-svg icon-tel"><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+                <li class="icon-mail"><a href="tel:+380961111111" class="link">
+                    <svg class="mail-icon">
+                        <use class="icon-envelope" href="./images/symbol-defs.svg#icon-smartphone" width="16" height="12"></use>
+                    </svg>
+                    +38 096 111 11 11</a></li>
             </ul>
         </div>
     </header>
@@ -51,18 +55,38 @@
             <h2: hidden>Плюсы компании</h2:>
             <ul class="flex-company">
                 <li class="flex-company-list icon-detalist">
+                    <div class="icon-box">
+                        <svg class="icon-antenna">
+                            <use href="./images/symbol-defs.svg#icon-antenna" width="70" height="70"></use>
+                        </svg>
+                    </div>
                     <h3 class="company">Внимание к деталям</h3>
                     <p class="company-plus">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
                 </li>
                 <li class="flex-company-list icon-punctuality">
+                    <div class="icon-box">
+                        <svg class="icon-clock">
+                            <use href="./images/symbol-defs.svg#icon-clock" width="70" height="70"></use>
+                        </svg>
+                    </div>
                     <h3 class="company">Пунктуальность</h3>
                     <p class="company-plus">Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
                 </li>
                 <li class="flex-company-list icon-plan">
+                    <div class="icon-box">
+                        <svg class="icon-diagram">
+                            <use href="./images/symbol-defs.svg#icon-diagram" width="70" height="70"></use>
+                        </svg>
+                    </div>
                     <h3 class="company">Планирование</h3>
                     <p class="company-plus">Равным образом консультация с широким активом в значительной степени обуславливает.</p>
                 </li>
                 <li class="flex-company-list icon-technologists">
+                    <div class="icon-box">
+                        <svg class="icon-astronaut">
+                            <use href="./images/symbol-defs.svg#icon-astronaut" width="70" height="70"></use>
+                        </svg>
+                    </div>
                     <h3 class="company">Современные технологии</h3>
                     <p class="company-plus">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
                 </li>
@@ -88,6 +112,35 @@
                             <h3 class="employees">Игорь Демьяненко</h3>
                             <p class="speciality">Product Designer</p>
                         </div>
+                        <ul class="comand-social-list">
+                            <li class="social-link"> <a href="#" class="comand-social-link" aria-label="Instagram">
+                                 <svg class="icon-social-link">
+                                    <use href="images/symbol-defs.svg#icon-instagram" width="20" height="20"></use>
+                                 </svg>
+                                 </a>
+                             </li>
+                            <li class="social-link">
+                                <a href="#" class="comand-social-link" aria-label="Twitter">
+                                    <svg class="icon-social-link">
+                                        <use href="images/symbol-defs.svg#icon-twitter" width="20" height="20"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="social-lick">
+                                <a href="#" class="comand-social-link" aria-label="Facebook">
+                                    <svg class="icon-social-link">
+                                        <use href="images/symbol-defs.svg#icon-facebook" width="20" height="20"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="social-lick">
+                                <a href="#" class="comand-social-link" aria-label="Linkedin">
+                                    <svg class="icon-social-link">
+                                        <use href="images/symbol-defs.svg#icon-linkedin" width="20" height="20"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                        </ul>
                     </li>
                     <li class="comand-list">
                         <img src="./images/img5.jpg" alt="Frontend Developer" width="270" height="260">
@@ -110,6 +163,43 @@
                             <p class="speciality">UI Designer</p>
                         </div>
                     </li>
+                </ul>
+            </div>
+        </section>
+        <section class="section">
+            <div class="container">
+                <h2 class="header-main">Постоянные клиенты</h2>
+                <ul class="clients-list">
+                    <li class="item"> <a href="#" class="client-icon">
+                        <svg class="logo-icon">
+                            <use href="./images/symbol-defs.svg#icon-group1" width="41" height="47"></use>
+                        </svg>
+                    </a> </li>
+                    <li class="item"> <a href="#" class="client-icon">
+                        <svg class="logo-icon">
+                            <use href="./images/symbol-defs.svg#icon-group2" width="40" height="52"></use>
+                        </svg>
+                    </a> </li>
+                    <li class="item"> <a href="#" class="client-icon">
+                        <svg class="logo-icon">
+                            <use href="./images/symbol-defs.svg#icon-group3" width="43" height="41"></use>
+                        </svg>
+                    </a> </li>
+                    <li class="item"> <a href="#" class="client-icon">
+                        <svg class="logo-icon">
+                            <use href="./images/symbol-defs.svg#icon-group4" width="85" height="47"></use>
+                        </svg>
+                    </a> </li>
+                    <li class="item"> <a href="#" class="client-icon">
+                        <svg class="logo-icon">
+                            <use href="./images/symbol-defs.svg#icon-group5" width="41" height="47"></use>
+                        </svg>
+                    </a> </li>
+                    <li class="item"> <a href="#" class="client-icon">
+                        <svg class="logo-icon">
+                            <use href="./images/symbol-defs.svg#icon-group6" width="41" height="47"></use>
+                        </svg>
+                    </a> </li>    
                 </ul>
             </div>
         </section>
