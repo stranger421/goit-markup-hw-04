@@ -109,6 +109,12 @@ header .logo {
 .link-header-root:hover .icon-envelope {
   fill: var(--active-color);
 }
+
+.link-header-root:focus .icon-smartphone,
+.link-header-root:hover .icon-smartphone {
+  fill: var(--active-color);
+}
+
 .icon-mail:last-child {
   margin-right: 0;
 }
