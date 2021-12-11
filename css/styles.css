@@ -104,6 +104,7 @@ header .logo {
   display: flex;
   margin-left: auto;
   align-items: center;
+  vertical-align: center;
 }
 
 .contacts list .icon-mail + .icon-mail {
@@ -112,7 +113,7 @@ header .logo {
   justify-content: center;
 }
 
-.link {
+.link-header {
   display: flex;
   align-items: center;
 }
@@ -143,8 +144,8 @@ header .logo {
 .icon-smartphone {
   fill: var(--sec-color);
 }
-.link:hover,
-.link:focus {
+.link-header:hover use,
+.link-header:focus use {
   fill: var(--active-color);
 }
 /* Герой  */
@@ -462,10 +463,12 @@ header .logo {
   padding-bottom: 60px;
 }
 
-.footer-section {
+.footer .container {
   display: flex;
-  width: 1200px;
-  justify-content: center;
+}
+
+.footer-social {
+  margin-left: 70px;
 }
 
 .home {
@@ -511,6 +514,7 @@ footer .logo {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #ffffff;
+  margin-bottom: 20px;
 }
 .comand-footer-link {
   display: flex;
