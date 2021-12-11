@@ -132,17 +132,6 @@ header .logo {
   fill: var(--sec-color);
 }
 
-/* .icon-tel::before { */
-/* display: inline-block; */
-/* content: ''; */
-/* width: 10px; */
-/* height: 16px; */
-/* background-image: url(../images/Vector.png); */
-/* background-size: contain; */
-/* background-repeat: no-repeat; */
-/* background-position: center; */
-/* margin-right: 10px; */
-/* } */
 /* Герой  */
 .hero {
   padding: 200px 0;
@@ -269,37 +258,6 @@ header .logo {
   width: 70px;
   height: 70px;
 }
-/* .flex-company-list::before { */
-/* display: block; */
-/* content: ''; */
-/* width: 270px; */
-/* height: 120px; */
-/* background: #f5f4fa; */
-/* border-radius: 4px; */
-/* margin-bottom: 30px; */
-/*  */
-/* background-size: 70px 70px; */
-/* background-repeat: no-repeat; */
-/* background-position: center; */
-/* margin-right: 10px; */
-/* } */
-/*  */
-/* .icon-detalist::before { */
-/* background-image: url(../images/antena.png); */
-/* } */
-/*  */
-/* .icon-punctuality::before { */
-/* background-image: url(../images/clock\ 1.png); */
-/* } */
-/*  */
-/* .icon-plan::before { */
-/* background-image: url(../images/diagram\ 1.png); */
-/* } */
-/*  */
-/* .icon-technologists::before { */
-/* background-image: url(../images/astronaut\ 1.png); */
-/* } */
-
 /* Чем ми занимаємься */
 
 .header-main {
@@ -375,10 +333,23 @@ header .logo {
 
 .comand-social-link {
   display: flex;
+  justify-content: center;
+  align-items: center;
+  background-position: center;
+  border-radius: 50%;
+  fill: #afb1b8;
   width: 44px;
   height: 44px;
-  border-radius: 50%;
-  outline: 2px solid teal;
+}
+
+.comand-social-link:hover,
+.comand-social-link:focus {
+  background-color: var(--active-color);
+}
+
+.comand-social-link:focus .icon-social-link,
+.comand-social-link:hover .icon-social-link {
+  fill: #ffffff;
 }
 
 .social-link {
@@ -417,10 +388,45 @@ header .logo {
   justify-content: center;
   align-items: center;
 }
-.logo-icon {
+
+.item:hover .logo-icon,
+.item:focus .logo-icon {
+  fill: var(--active-color);
+  border-color: var(--active-color);
+}
+
+.item {
+  fill: var(--icon-color);
+}
+
+.group1 {
   width: 41px;
   height: 47px;
-  fill: var(--icon-color);
+}
+
+.group2 {
+  width: 40px;
+  height: 52px;
+}
+
+.group3 {
+  width: 43px;
+  height: 41px;
+}
+
+.group4 {
+  width: 85px;
+  height: 41px;
+}
+
+.group5 {
+  width: 63px;
+  height: 45px;
+}
+
+.group6 {
+  width: 94px;
+  height: 44px;
 }
 /* Футер */
 
